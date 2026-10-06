@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#121212">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="images/tow-sedan.webp">
 
 <!-- Google Ads: paste gtag.js code here -->
@@ -29,18 +29,19 @@ html{scroll-behavior:smooth}
 body{font-family:'Barlow',system-ui,sans-serif;color:#000;background:#fff;line-height:1.65;font-size:18px;-webkit-font-smoothing:antialiased}
 img,video{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
+b,strong{font-weight:600}
 .wrap{width:min(1180px,100% - 32px);margin-inline:auto}
-h1,h2,h3{font-family:'Barlow Condensed','Barlow',sans-serif;line-height:1.05;font-weight:800;letter-spacing:.3px}
+h1,h2,h3{font-family:'Barlow Condensed','Barlow',sans-serif;line-height:1.05;font-weight:600;letter-spacing:.3px}
 .sec{padding:84px 0}
 .sec.cream{background:var(--cream)}
-.tag{display:inline-block;background:var(--ink);color:var(--yellow);font-weight:700;font-size:14px;letter-spacing:1px;padding:5px 12px;border-radius:6px;margin-bottom:12px}
+.tag{display:inline-block;background:var(--ink);color:var(--yellow);font-weight:600;font-size:14px;letter-spacing:1px;padding:5px 12px;border-radius:6px;margin-bottom:12px}
 .sec-head{max-width:740px;margin-bottom:40px}
 .sec-head h2{font-size:clamp(34px,4.4vw,54px)}
 .sec-head p{margin-top:10px}
 .center{text-align:center;margin-inline:auto}
 
 /* buttons – flat */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:inherit;font-weight:800;font-size:18px;padding:15px 26px;border-radius:10px;border:0;cursor:pointer;transition:background .15s,transform .15s;white-space:nowrap;letter-spacing:.4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:inherit;font-weight:600;font-size:18px;padding:15px 26px;border-radius:10px;border:0;cursor:pointer;transition:background .15s,transform .15s;white-space:nowrap;letter-spacing:.4px}
 .btn svg{width:21px;height:21px;flex:none}
 .btn:hover{transform:translateY(-2px)}
 .btn-yellow{background:var(--yellow);color:var(--ink)}
@@ -51,7 +52,7 @@ h1,h2,h3{font-family:'Barlow Condensed','Barlow',sans-serif;line-height:1.05;fon
 
 
 /* top bar */
-.topbar{background:var(--yellow);color:var(--ink);font-weight:700;font-size:15px}
+.topbar{background:var(--yellow);color:var(--ink);font-weight:600;font-size:15px}
 .topbar .wrap{display:flex;justify-content:center;align-items:center;gap:10px;padding:8px 0;text-align:center;flex-wrap:wrap}
 .dot{width:9px;height:9px;border-radius:50%;background:#16A34A;display:inline-block;animation:blink 1.4s infinite}
 @keyframes blink{50%{opacity:.3}}
@@ -64,8 +65,8 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .brand .mark{width:46px;height:46px;border-radius:10px;background:var(--ink);color:var(--yellow);display:grid;place-items:center}
 .brand .mark svg{width:28px;height:28px}
 .brand b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:26px;line-height:1}
-.brand small{display:block;font-size:13.5px;font-weight:600}
-.nav-links{display:flex;gap:28px;font-weight:700}
+.brand small{display:block;font-size:13.5px;font-weight:500}
+.nav-links{display:flex;gap:28px;font-weight:600}
 .nav-links a:hover{color:var(--orange)}
 .nav-cta{display:flex;gap:10px}
 .nav-cta .btn{padding:10px 18px;font-size:15.5px}
@@ -73,13 +74,13 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 /* hero */
 .hero{background:var(--ink);color:#fff;overflow:hidden}
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;padding:64px 0 70px}
-.live{display:inline-flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px}
-.hero h1{font-size:clamp(46px,6.6vw,86px);margin:18px 0 16px}
+.live{display:inline-flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px}
+.hero h1{font-size:clamp(46px,6.6vw,86px);margin:18px 0 16px;font-weight:700}
 .hero h1 span{color:var(--yellow)}
 .hero p.lead{font-size:clamp(18px,1.7vw,21px);max-width:580px}
 .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 22px}
 .hero-ctas .btn{padding:17px 28px;font-size:19px}
-.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;font-weight:600}
+.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;font-weight:500}
 .checks li{display:flex;gap:9px;align-items:center}
 .checks svg{width:22px;height:22px;color:var(--yellow);flex:none}
 .hero-pic{position:relative}
@@ -87,14 +88,14 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .eta{position:absolute;bottom:20px;inset-inline-start:-24px;background:var(--yellow);color:var(--ink);border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:12px}
 .eta svg{width:30px;height:30px}
 .eta b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:24px;line-height:1}
-.eta small{font-weight:600;font-size:14px}
+.eta small{font-weight:500;font-size:14px}
 
 /* trust strip */
 .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
 .strip div{padding:24px 14px;text-align:center;border-inline-start:1px solid var(--line)}
 .strip div:first-child{border-inline-start:0}
 .strip b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:34px;line-height:1.1}
-.strip small{font-size:15.5px;font-weight:600}
+.strip small{font-size:15.5px;font-weight:500}
 
 /* services */
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -104,14 +105,14 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .svc .ic svg{width:32px;height:32px}
 .svc h3{font-size:28px}
 .svc p{font-size:16.5px;margin:8px 0 16px;flex:1}
-.svc a{font-weight:800;display:inline-flex;align-items:center;gap:8px;font-size:15.5px}
+.svc a{font-weight:600;display:inline-flex;align-items:center;gap:8px;font-size:15.5px}
 .svc a svg{width:18px;height:18px;color:var(--orange)}
 
 /* emergency band */
 .band{background:var(--orange);color:#fff}
 .band .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:30px 0}
 .band h2{font-size:clamp(30px,3.6vw,46px)}
-.band p{font-weight:600}
+.band p{font-weight:500}
 .band .acts{display:flex;gap:12px;flex-wrap:wrap}
 .band .btn-dark{background:var(--ink)}
 
@@ -119,7 +120,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .proof{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:start}
 .vid{position:relative}
 .vid video{width:100%;aspect-ratio:478/850;max-height:640px;object-fit:cover;border-radius:18px;background:#222}
-.vid .lbl{position:absolute;top:14px;left:14px;background:var(--yellow);color:var(--ink);font-weight:800;font-size:14px;padding:5px 12px;border-radius:6px}
+.vid .lbl{position:absolute;top:14px;left:14px;background:var(--yellow);color:var(--ink);font-weight:600;font-size:14px;padding:5px 12px;border-radius:6px}
 .photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .photos img{width:100%;height:300px;object-fit:cover;border-radius:16px;cursor:zoom-in}
 .photos .txt{grid-column:span 2;background:var(--ink);color:#fff;border-radius:16px;padding:24px}
@@ -130,7 +131,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--ink);border-radius:16px;overflow:hidden}
 .step{padding:30px 26px;background:#fff;position:relative}
 .step+.step{border-left:2px solid var(--ink)}
-.step .n{font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:70px;line-height:1;color:var(--yellow);-webkit-text-stroke:2px var(--ink);font-weight:800}
+.step .n{font-weight:700;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:70px;line-height:1;color:var(--yellow);-webkit-text-stroke:2px var(--ink);font-weight:600}
 .step h3{font-size:28px;margin:8px 0 6px}
 .step p{font-size:16.5px}
 
@@ -146,7 +147,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 /* faq */
 .faq{max-width:860px;margin-inline:auto}
 .faq details{border:1.5px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden;background:#fff}
-.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:800;font-size:19px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:600;font-size:19px;display:flex;justify-content:space-between;align-items:center;gap:12px}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";font-size:28px;color:var(--orange);line-height:1;transition:transform .2s}
 .faq details[open] summary::after{transform:rotate(45deg)}
@@ -158,7 +159,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .contact h2{font-size:clamp(40px,5vw,66px)}
 .contact h2 span{color:var(--yellow)}
 .contact p{margin:12px 0 22px;font-size:19px}
-.send{list-style:none;display:grid;gap:8px;font-weight:600}
+.send{list-style:none;display:grid;gap:8px;font-weight:500}
 .send li{display:flex;gap:9px;align-items:center}
 .send svg{width:20px;height:20px;color:var(--yellow)}
 .cards{display:grid;gap:14px}
@@ -166,7 +167,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;g
 .ccard:hover{transform:translateY(-2px)}
 .ccard .ic{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;flex:none}
 .ccard .ic svg{width:28px;height:28px}
-.ccard small{display:block;font-weight:700;font-size:14px;letter-spacing:.5px}
+.ccard small{display:block;font-weight:600;font-size:14px;letter-spacing:.5px}
 .ccard b{font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:38px;line-height:1.05}
 .ccard.call{background:var(--yellow);color:var(--ink)}
 .ccard.call .ic{background:var(--ink);color:var(--yellow)}
