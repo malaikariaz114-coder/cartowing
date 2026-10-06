@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>24/7 Car Towing &amp; Flatbed Recovery | Call Now</title>
+<meta name="description" content="Fast 24/7 car towing and flatbed recovery. Accident recovery, breakdown towing, SUV &amp; pickup towing and safe vehicle transport. Call or WhatsApp now.">
+<meta name="theme-color" content="#121212">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/tow-sedan.webp">
+
+<!-- Google Ads: paste gtag.js code here -->
+
+<style>
+:root{
+  --ink:#121212;
+  --ink-2:#1E1E1E;
+  --yellow:#FFC400;   /* safety yellow – main CTA */
+  --yellow-h:#FFD233;
+  --orange:#FF5B14;   /* truck orange accent */
+  --cream:#FFF8E6;
+  --line:#E7E3D8;
+  --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',system-ui,sans-serif;color:#000;background:#fff;line-height:1.65;font-size:18px;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:'Barlow Condensed','Barlow',sans-serif;line-height:1.05;font-weight:800;letter-spacing:.3px}
+.sec{padding:84px 0}
+.sec.cream{background:var(--cream)}
+.tag{display:inline-block;background:var(--ink);color:var(--yellow);font-weight:700;font-size:14px;letter-spacing:1px;padding:5px 12px;border-radius:6px;margin-bottom:12px}
+.sec-head{max-width:740px;margin-bottom:40px}
+.sec-head h2{font-size:clamp(34px,4.4vw,54px)}
+.sec-head p{margin-top:10px}
+.center{text-align:center;margin-inline:auto}
+
+/* buttons – flat */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:inherit;font-weight:800;font-size:18px;padding:15px 26px;border-radius:10px;border:0;cursor:pointer;transition:background .15s,transform .15s;white-space:nowrap;letter-spacing:.4px}
+.btn svg{width:21px;height:21px;flex:none}
+.btn:hover{transform:translateY(-2px)}
+.btn-yellow{background:var(--yellow);color:var(--ink)}
+.btn-yellow:hover{background:var(--yellow-h)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-outline{background:transparent;color:#fff;border:2px solid #fff}
+.btn-outline-dark{background:#fff;color:var(--ink);border:2px solid var(--ink)}
+
+
+/* top bar */
+.topbar{background:var(--yellow);color:var(--ink);font-weight:700;font-size:15px}
+.topbar .wrap{display:flex;justify-content:center;align-items:center;gap:10px;padding:8px 0;text-align:center;flex-wrap:wrap}
+.dot{width:9px;height:9px;border-radius:50%;background:#16A34A;display:inline-block;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.3}}
+.topbar a{text-decoration:underline}
+
+/* header */
+header.nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .mark{width:46px;height:46px;border-radius:10px;background:var(--ink);color:var(--yellow);display:grid;place-items:center}
+.brand .mark svg{width:28px;height:28px}
+.brand b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:26px;line-height:1}
+.brand small{display:block;font-size:13.5px;font-weight:600}
+.nav-links{display:flex;gap:28px;font-weight:700}
+.nav-links a:hover{color:var(--orange)}
+.nav-cta{display:flex;gap:10px}
+.nav-cta .btn{padding:10px 18px;font-size:15.5px}
+
+/* hero */
+.hero{background:var(--ink);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;padding:64px 0 70px}
+.live{display:inline-flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px}
+.hero h1{font-size:clamp(46px,6.6vw,86px);margin:18px 0 16px}
+.hero h1 span{color:var(--yellow)}
+.hero p.lead{font-size:clamp(18px,1.7vw,21px);max-width:580px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 22px}
+.hero-ctas .btn{padding:17px 28px;font-size:19px}
+.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;font-weight:600}
+.checks li{display:flex;gap:9px;align-items:center}
+.checks svg{width:22px;height:22px;color:var(--yellow);flex:none}
+.hero-pic{position:relative}
+.hero-pic img{width:100%;height:auto;aspect-ratio:4/4.3;object-fit:cover;border-radius:18px;border:4px solid var(--yellow)}
+.eta{position:absolute;bottom:20px;inset-inline-start:-24px;background:var(--yellow);color:var(--ink);border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.eta svg{width:30px;height:30px}
+.eta b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:24px;line-height:1}
+.eta small{font-weight:600;font-size:14px}
+
+/* trust strip */
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:24px 14px;text-align:center;border-inline-start:1px solid var(--line)}
+.strip div:first-child{border-inline-start:0}
+.strip b{display:block;font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:34px;line-height:1.1}
+.strip small{font-size:15.5px;font-weight:600}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.svc{background:#fff;border:1.5px solid var(--line);border-radius:var(--r);padding:26px 24px;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+.svc:hover{border-color:var(--ink);transform:translateY(-3px)}
+.svc .ic{width:58px;height:58px;border-radius:12px;background:var(--yellow);color:var(--ink);display:grid;place-items:center;margin-bottom:16px}
+.svc .ic svg{width:32px;height:32px}
+.svc h3{font-size:28px}
+.svc p{font-size:16.5px;margin:8px 0 16px;flex:1}
+.svc a{font-weight:800;display:inline-flex;align-items:center;gap:8px;font-size:15.5px}
+.svc a svg{width:18px;height:18px;color:var(--orange)}
+
+/* emergency band */
+.band{background:var(--orange);color:#fff}
+.band .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:30px 0}
+.band h2{font-size:clamp(30px,3.6vw,46px)}
+.band p{font-weight:600}
+.band .acts{display:flex;gap:12px;flex-wrap:wrap}
+.band .btn-dark{background:var(--ink)}
+
+/* proof – video + photos */
+.proof{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:start}
+.vid{position:relative}
+.vid video{width:100%;aspect-ratio:478/850;max-height:640px;object-fit:cover;border-radius:18px;background:#222}
+.vid .lbl{position:absolute;top:14px;left:14px;background:var(--yellow);color:var(--ink);font-weight:800;font-size:14px;padding:5px 12px;border-radius:6px}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.photos img{width:100%;height:300px;object-fit:cover;border-radius:16px;cursor:zoom-in}
+.photos .txt{grid-column:span 2;background:var(--ink);color:#fff;border-radius:16px;padding:24px}
+.photos .txt h3{font-size:30px;color:var(--yellow)}
+.photos .txt p{margin:8px 0 16px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--ink);border-radius:16px;overflow:hidden}
+.step{padding:30px 26px;background:#fff;position:relative}
+.step+.step{border-left:2px solid var(--ink)}
+.step .n{font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:70px;line-height:1;color:var(--yellow);-webkit-text-stroke:2px var(--ink);font-weight:800}
+.step h3{font-size:28px;margin:8px 0 6px}
+.step p{font-size:16.5px}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.why{background:var(--ink-2);color:#fff;border-radius:var(--r);padding:26px 22px}
+.why svg{width:36px;height:36px;color:var(--yellow);margin-bottom:12px}
+.why h3{font-size:25px}
+.why p{font-size:16px;margin-top:6px}
+.dark{background:var(--ink);color:#fff}
+.dark .sec-head h2{color:#fff}
+
+/* faq */
+.faq{max-width:860px;margin-inline:auto}
+.faq details{border:1.5px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden;background:#fff}
+.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:800;font-size:19px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:28px;color:var(--orange);line-height:1;transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 22px 18px}
+
+/* contact */
+.contact{background:var(--ink);color:#fff}
+.contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.contact h2{font-size:clamp(40px,5vw,66px)}
+.contact h2 span{color:var(--yellow)}
+.contact p{margin:12px 0 22px;font-size:19px}
+.send{list-style:none;display:grid;gap:8px;font-weight:600}
+.send li{display:flex;gap:9px;align-items:center}
+.send svg{width:20px;height:20px;color:var(--yellow)}
+.cards{display:grid;gap:14px}
+.ccard{display:flex;align-items:center;gap:16px;border-radius:16px;padding:20px 22px;transition:transform .15s}
+.ccard:hover{transform:translateY(-2px)}
+.ccard .ic{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;flex:none}
+.ccard .ic svg{width:28px;height:28px}
+.ccard small{display:block;font-weight:700;font-size:14px;letter-spacing:.5px}
+.ccard b{font-family:'Barlow Condensed','Barlow',Arial,sans-serif;font-size:38px;line-height:1.05}
+.ccard.call{background:var(--yellow);color:var(--ink)}
+.ccard.call .ic{background:var(--ink);color:var(--yellow)}
+.ccard.wa{background:#fff;color:var(--ink)}
+.ccard.wa .ic{background:#16A34A;color:#fff}
+.ccard.wa b{font-size:30px}
+
+footer{background:#000;color:#fff;font-size:15px;padding:26px 0 100px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:60;width:62px;height:62px;border-radius:50%;background:#16A34A;color:#fff;display:grid;place-items:center;border:3px solid #fff}
+.wa-float svg{width:32px;height:32px}
+.mbar{position:fixed;bottom:0;left:0;right:0;z-index:60;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line)}
+.mbar .btn{padding:14px 10px;font-size:16px}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:100;display:none;place-items:center;padding:20px}
+.lb.on{display:grid}
+.lb img{max-height:88vh;border-radius:12px}
+
+@media (max-width:1020px){
+  .nav-links{display:none}
+  .hero .wrap,.proof,.contact .grid{grid-template-columns:minmax(0,1fr)}
+  .hero-pic{max-width:460px}
+  .svc-grid,.why-grid{grid-template-columns:repeat(2,1fr)}
+  .vid{max-width:380px}
+}
+@media (max-width:680px){
+  body{font-size:17px}
+  .sec{padding:60px 0}
+  .nav-cta{display:none}
+  header.nav .wrap{justify-content:center}
+  .topbar{font-size:13.5px}
+  .hero .wrap{padding:36px 0 50px;gap:30px}
+  .hero-ctas .btn{width:100%;white-space:normal;text-align:center}
+  .live{font-size:13.5px}
+  .hero h1{font-size:44px}
+  .checks{grid-template-columns:1fr}
+  .eta{inset-inline-start:12px}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .strip div{border-inline-start:0;border-bottom:1px solid var(--line)}
+  .strip div:nth-child(odd){border-right:1px solid var(--line)}
+  .strip b{font-size:27px}
+  .svc-grid,.why-grid,.steps{grid-template-columns:1fr}
+  .step+.step{border-left:0;border-top:2px solid var(--ink)}
+  .band .acts,.band .acts .btn{width:100%}
+  .photos img{height:200px}
+  .ccard b{font-size:31px}
+  .mbar{display:grid}
+  .wa-float{display:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M2 16V7h9v9M11 10h5l3 3v3h-8M2 16h1m4 0h6m4 0h2"/><circle cx="5.5" cy="16.5" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16.5" cy="16.5" r="2" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M2 12l6-3"/></symbol>
+  <symbol id="i-flatbed" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M2 17h20M3 17l2-5h9l2 5M15 17V9h4l3 4v4"/><circle cx="6" cy="19" r="1.8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="19" r="1.8" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" d="M6 12l1.5-2.5h4L13 12"/></symbol>
+  <symbol id="i-crash" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M4 16l1.5-5h9l2 5v3H4z"/><circle cx="7.5" cy="19" r="1.5" fill="currentColor"/><circle cx="14.5" cy="19" r="1.5" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M18 4l1 3 3-1-2 3 2 2-3 0-1 3"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-1.5 1.5-1.3-1.3a4 4 0 0 1-5-5L3 18.4 5.6 21 15.9 10.7"/></symbol>
+  <symbol id="i-road" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M8 3 4 21M16 3l4 18M12 4v3M12 11v3M12 18v2"/></symbol>
+  <symbol id="i-suv" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M2 16v-4l3-5h11l4 5h2v4z"/><circle cx="7" cy="17" r="2" fill="#fff" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="17" r="2" fill="#fff" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-shop" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 10l2-6h14l2 6M4 10v10h16V10M9 20v-6h6v6M3 10h18"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5" fill="currentColor"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<div class="topbar"><div class="wrap"><i class="dot"></i> Tow trucks available now — 24 hours, 7 days. <a href="#" class="js-call">Call <span class="js-phone">XXX XXX XXXX</span></a></div></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <span class="mark"><svg><use href="#i-truck"/></svg></span>
+      <div><b class="js-brand">Car Towing</b><small>24/7 flatbed recovery</small></div>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Our work</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#" class="btn btn-outline-dark js-wa"><svg><use href="#i-wa"/></svg> WhatsApp</a>
+      <a href="#" class="btn btn-yellow js-call"><svg><use href="#i-phone"/></svg> Call now</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="live"><i class="dot"></i> Available 24/7 — including nights &amp; weekends</span>
+      <h1>Car broken down? <span>We tow it.</span> Fast.</h1>
+      <p class="lead">Flatbed towing for cars, SUVs and pickups. Accident recovery, breakdowns and safe vehicle transport — your car is loaded, strapped and delivered with care.</p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-yellow js-call"><svg><use href="#i-phone"/></svg> Call <span class="js-phone">XXX XXX XXXX</span></a>
+        <a href="#" class="btn btn-outline js-wa"><svg><use href="#i-wa"/></svg> Send location on WhatsApp</a>
+      </div>
+      <ul class="checks">
+        <li><svg><use href="#i-check"/></svg> Flatbed – no damage to your car</li>
+        <li><svg><use href="#i-check"/></svg> Fast response, day or night</li>
+        <li><svg><use href="#i-check"/></svg> Price agreed before we move</li>
+        <li><svg><use href="#i-check"/></svg> Cars, SUVs &amp; pickups</li>
+      </ul>
+    </div>
+    <div class="hero-pic">
+      <img src="images/tow-sedan.webp" alt="Sedan secured on a flatbed tow truck" width="750" height="1000">
+      <div class="eta"><svg><use href="#i-clock"/></svg><div><b>24/7 service</b><small>Call any time</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="strip">
+  <div class="wrap">
+    <div><b>24/7</b><small>Day &amp; night towing</small></div>
+    <div><b>Flatbed</b><small>Safe for every car</small></div>
+    <div><b>Fixed price</b><small>Agreed upfront</small></div>
+    <div><b>All vehicles</b><small>Cars • SUVs • Pickups</small></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec cream" id="services">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="tag">Our services</span>
+      <h2>Towing &amp; recovery for any situation</h2>
+      <p>Tap a service to send us a WhatsApp message instantly.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc"><span class="ic"><svg><use href="#i-flatbed"/></svg></span><h3>Flatbed towing</h3><p>Your vehicle rides fully on the bed — no wear on tyres, gearbox or bodywork.</p><a href="#" class="js-wa" data-svc="Flatbed Towing">Request now <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="svc"><span class="ic"><svg><use href="#i-crash"/></svg></span><h3>Accident recovery</h3><p>Damaged or non-driveable after an accident? We load it safely and take it where you need.</p><a href="#" class="js-wa" data-svc="Accident Recovery">Request now <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="svc"><span class="ic"><svg><use href="#i-wrench"/></svg></span><h3>Breakdown towing</h3><p>Engine, battery or gearbox failure — we tow your car to the workshop of your choice.</p><a href="#" class="js-wa" data-svc="Breakdown Towing">Request now <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="svc"><span class="ic"><svg><use href="#i-suv"/></svg></span><h3>SUV &amp; pickup towing</h3><p>Heavy-duty straps and equipment for SUVs, 4x4s and pickups of all sizes.</p><a href="#" class="js-wa" data-svc="SUV / Pickup Towing">Request now <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="svc"><span class="ic"><svg><use href="#i-road"/></svg></span><h3>Long-distance transport</h3><p>Moving a car between cities? Safe, secured transport door to door.</p><a href="#" class="js-wa" data-svc="Long-Distance Car Transport">Request now <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="svc"><span class="ic"><svg><use href="#i-shop"/></svg></span><h3>Workshop &amp; showroom delivery</h3><p>Car to the workshop, agency or showroom — and back home when it's ready.</p><a href="#" class="js-wa" data-svc="Workshop / Showroom Delivery">Request now <svg><use href="#i-arrow"/></svg></a></article>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY BAND -->
+<section class="band">
+  <div class="wrap">
+    <div><h2>Stuck on the road right now?</h2><p>Call us — a tow truck can be on its way in minutes.</p></div>
+    <div class="acts">
+      <a href="#" class="btn btn-dark js-call"><svg><use href="#i-phone"/></svg> <span class="js-phone">XXX XXX XXXX</span></a>
+      <a href="#" class="btn btn-yellow js-wa"><svg><use href="#i-wa"/></svg> WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORK -->
+<section class="sec" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="tag">Real jobs</span>
+      <h2>See our trucks in action</h2>
+      <p>Real photos and video from our recent towing jobs.</p>
+    </div>
+    <div class="proof">
+      <div class="vid">
+        <video src="images/unload.mp4" poster="images/unload-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="SUV being unloaded from our flatbed"></video>
+        <span class="lbl">Video – SUV delivery</span>
+      </div>
+      <div class="photos" id="gallery">
+        <img src="images/tow-hilux.webp" alt="Pickup truck after an accident on our flatbed" loading="lazy">
+        <img src="images/tow-front.webp" alt="Accident-damaged pickup secured for transport" loading="lazy">
+        <div class="txt">
+          <h3>Strapped, secured, delivered.</h3>
+          <p>Every vehicle is fixed on all four wheels with heavy-duty ratchet straps, so it arrives exactly as it left — no extra damage.</p>
+          <a href="#" class="btn btn-yellow js-call"><svg><use href="#i-phone"/></svg> Book a tow</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="sec cream" id="how">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="tag">How it works</span>
+      <h2>Towed in 3 simple steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><h3>Call or WhatsApp</h3><p>Tell us your car type and share your live location.</p></div>
+      <div class="step"><div class="n">02</div><h3>Get your price</h3><p>We confirm the price and arrival time before we move.</p></div>
+      <div class="step"><div class="n">03</div><h3>We tow it safely</h3><p>Your car is loaded on the flatbed and delivered where you need.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="sec dark">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="tag" style="background:var(--yellow);color:var(--ink)">Why choose us</span>
+      <h2>Towing you can count on</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why"><svg><use href="#i-bolt"/></svg><h3>Fast response</h3><p>We answer quickly and dispatch the nearest truck.</p></div>
+      <div class="why"><svg><use href="#i-shield"/></svg><h3>Safe handling</h3><p>Flatbed loading and proper straps on every job.</p></div>
+      <div class="why"><svg><use href="#i-tag"/></svg><h3>Clear pricing</h3><p>Price agreed upfront — no surprises at drop-off.</p></div>
+      <div class="why"><svg><use href="#i-clock"/></svg><h3>Always open</h3><p>24 hours a day, 7 days a week, including holidays.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="tag">FAQ</span>
+      <h2>Questions? We've got answers</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>Are you really available 24/7?</summary><p>Yes. Call or WhatsApp us any time — day, night, weekends and holidays.</p></details>
+      <details><summary>How much does towing cost?</summary><p>It depends on your vehicle type and the distance. Send us your location and destination and we'll give you a clear price before we start.</p></details>
+      <details><summary>Will towing damage my car?</summary><p>No. We use flatbed tow trucks, so your vehicle sits fully on the bed and is secured with heavy-duty straps.</p></details>
+      <details><summary>Can you tow SUVs and pickups?</summary><p>Yes — sedans, SUVs, 4x4s and pickups. Just tell us the model when you call.</p></details>
+      <details><summary>How do I share my location?</summary><p>Tap the WhatsApp button, then use "Location → Send your current location". We'll reply with the price and arrival time.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec contact" id="contact">
+  <div class="wrap grid">
+    <div>
+      <span class="tag" style="background:var(--yellow);color:var(--ink)">Get help now</span>
+      <h2>Need a tow? <span>Call now.</span></h2>
+      <p>For the fastest quote, send us on WhatsApp:</p>
+      <ul class="send">
+        <li><svg><use href="#i-pin"/></svg> Your live location</li>
+        <li><svg><use href="#i-suv"/></svg> Car make &amp; model</li>
+        <li><svg><use href="#i-road"/></svg> Where it needs to go</li>
+      </ul>
+    </div>
+    <div class="cards">
+      <a href="#" class="ccard call js-call"><span class="ic"><svg><use href="#i-phone"/></svg></span><div><small>Call 24/7</small><b class="js-phone">XXX XXX XXXX</b></div></a>
+      <a href="#" class="ccard wa js-wa"><span class="ic"><svg><use href="#i-wa"/></svg></span><div><small>WhatsApp – send your location</small><b>Chat on WhatsApp</b></div></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b class="js-brand">Car Towing</b> — 24/7 flatbed towing &amp; recovery</div>
+    <div>© <span id="yr"></span> All rights reserved · <a href="#" style="text-decoration:underline">Privacy Policy</a></div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float js-wa" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+<div class="mbar">
+  <a href="#" class="btn btn-yellow js-call"><svg><use href="#i-phone"/></svg> Call now</a>
+  <a href="#" class="btn btn-dark js-wa"><svg><use href="#i-wa"/></svg> WhatsApp</a>
+</div>
+<div class="lb" id="lb"><img alt=""></div>
+
+<script>
+/* ===== Business details – edit here only ===== */
+var CONFIG = {
+  brand: 'Car Towing',
+  phoneDisplay: 'XXX XXX XXXX',
+  phoneIntl: 'XXXXXXXXXXX'   // full number with country code, no + sign (e.g. 447700900123)
+};
+/* ============================================= */
+document.querySelectorAll('.js-brand').forEach(function(e){e.textContent=CONFIG.brand;});
+document.querySelectorAll('.js-phone').forEach(function(e){e.textContent=CONFIG.phoneDisplay;});
+document.querySelectorAll('.js-call').forEach(function(a){a.href='tel:+'+CONFIG.phoneIntl;});
+document.querySelectorAll('.js-wa').forEach(function(a){
+  var s=a.getAttribute('data-svc');
+  a.href='https://wa.me/'+CONFIG.phoneIntl+'?text='+encodeURIComponent(s?('Hi, I need '+s+'. My location is: '):'Hi, I need a tow truck. My location is: ');
+  a.target='_blank'; a.rel='noopener';
+});
+var lb=document.getElementById('lb');
+document.querySelectorAll('#gallery img').forEach(function(i){i.addEventListener('click',function(){lb.querySelector('img').src=i.src;lb.classList.add('on');});});
+lb.addEventListener('click',function(){lb.classList.remove('on');});
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+
+<!-- Google Ads conversion (call + WhatsApp clicks): add your AW ID/label, then remove the comment marks
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest('a'); if (!a) return;
+  var h = a.getAttribute('href') || '';
+  if (h.indexOf('tel:') === 0 || h.indexOf('wa.me') > -1) {
+    if (typeof gtag === 'function') gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/XXXXXXXX'});
+  }
+});
+</script>
+-->
+</body>
+</html>
