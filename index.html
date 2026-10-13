@@ -471,8 +471,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 var PHONE='966579256758';
 document.querySelectorAll('.js-call').forEach(function(a){a.href='tel:+'+PHONE;});
 document.querySelectorAll('.js-wa').forEach(function(a){
-  var s=a.getAttribute('data-svc');
-  a.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent(s?('السلام عليكم، أحتاج '+s+'. موقعي: '):'السلام عليكم، أحتاج سطحة. موقعي: ');
+  a.href='https://wa.me/'+PHONE;
   a.target='_blank'; a.rel='noopener';
 });
 var lb=document.getElementById('lb');
