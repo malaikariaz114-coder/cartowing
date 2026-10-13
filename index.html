@@ -11,7 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="images/tow-sedan.webp">
 
-<!-- Google Ads: ضع كود gtag.js هنا -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18509674612"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18509674612');
+</script>
 
 <style>
 :root{
@@ -480,16 +488,17 @@ lb.addEventListener('click',function(){lb.classList.remove('on');});
 document.getElementById('yr').textContent=new Date().getFullYear();
 </script>
 
-<!-- Google Ads conversion (call + WhatsApp): ضع AW ID و label ثم احذف علامات التعليق
+<!-- Google Ads conversion (call + WhatsApp) -->
 <script>
 document.addEventListener('click', function (e) {
   var a = e.target.closest('a'); if (!a) return;
   var h = a.getAttribute('href') || '';
-  if (h.indexOf('tel:') === 0 || h.indexOf('wa.me') > -1) {
-    if (typeof gtag === 'function') gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/XXXXXXXX'});
+  if (h.indexOf('tel:') > -1 || h.indexOf('wa.me') > -1) {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18509674612/9G9dCK6W05sdEPTwjPpE'
+    });
   }
 });
 </script>
--->
 </body>
 </html>
